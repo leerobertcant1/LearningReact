@@ -10,6 +10,10 @@ function Header() {
       <a href="/about" Title="About">
         About
       </a>
+      |{" "}
+      <a href="/courses" Title="Courses">
+        Courses
+      </a>
     </nav>
   );
 }
