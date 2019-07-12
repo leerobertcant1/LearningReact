@@ -5,11 +5,11 @@ function Header() {
     <nav>
       <a href="/" title="Home">
         Home
-      </a>
+      </a>{" "}
       |{" "}
       <a href="/about" Title="About">
         About
-      </a>
+      </a>{" "}
       |{" "}
       <a href="/courses" Title="Courses">
         Courses
