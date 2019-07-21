@@ -72,11 +72,11 @@
     },
     {
       "id": 11,
-      "slug": "test",
-      "title": "Test",
-      "authorId": 2,
-      "category": "Test",
-      "createdAt": 1563486671015
+      "slug": "temp-course",
+      "title": "Temp course",
+      "authorId": 1,
+      "category": "Temp",
+      "createdAt": 1563651875037
     }
   ],
   "authors": [
