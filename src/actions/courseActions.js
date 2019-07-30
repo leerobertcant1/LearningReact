@@ -6,7 +6,9 @@ export function saveCourse(course) {
   return courseApi.saveCourse(course).then(savedCourse => {
     //Tells all stores course created
     dispatcher.dispatch({
-      actionType: actionTypes.CREATE_COURSE,
+      actionType: course.id
+        ? actionTypes.UPDATE_COURSE
+        : actionTypes.CREATE_COURSE,
       course: savedCourse
     });
   });
@@ -17,6 +19,15 @@ export function loadCourses() {
     dispatcher.dispatch({
       actionType: actionTypes.loadCourses,
       courses
+    });
+  });
+}
+
+export function deleteCourse(id) {
+  return courseApi.deleteCourse(id).then(() => {
+    dispatcher.dispatch({
+      actionType: actionTypes.DELETE_COURSE,
+      id
     });
   });
 }

@@ -6,7 +6,7 @@ function CourseForm(props) {
     <form onSubmit={props.onSubmit}>
       <TextInput
         id="title"
-        label="Title"
+        label="title"
         onChange={props.onChange}
         name="title"
         className="form-control"

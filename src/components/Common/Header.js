@@ -10,11 +10,11 @@ function Header() {
         Home
       </NavLink>
       {" | "}
-      <NavLink activeStyle={activeStyle} to="/about" Title="About">
+      <NavLink activeStyle={activeStyle} to="/about" title="About">
         About
       </NavLink>
       {" | "}
-      <NavLink activeStyle={activeStyle} to="/courses" Title="Courses">
+      <NavLink activeStyle={activeStyle} to="/courses" title="Courses">
         Courses
       </NavLink>
     </nav>
